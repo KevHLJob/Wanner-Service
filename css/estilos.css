@@ -271,7 +271,7 @@ footer{
 
 .contenedor-footer{
     display: flex;
-    width: 90%;
+    width: 70%;
     justify-content: space-evenly;
     margin: auto;
     padding-bottom: 50px;
@@ -295,7 +295,7 @@ footer{
 
 .titulo-final{
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     margin: 20px 0 0 0;
     color: #9e9797;
 }
