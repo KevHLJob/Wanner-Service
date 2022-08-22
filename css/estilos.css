@@ -17,7 +17,7 @@ body {
 }
 
 .titulo {
-    color: #392ddd;
+    color: #1506ee;
     font-size: 30px;
     text-align: center;
     margin-bottom: 60px;
@@ -28,7 +28,7 @@ body {
 header {
     width: 100%;
     height: 600px;
-    background: #4d43af;
+    background: #1506ee;
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(246, 95%, 50%, 0.459), hsla(234, 89%, 63%, 0.664)), url(../img/);
     /* Chrome 10-25, Safari 5.1-6 */
@@ -39,23 +39,23 @@ header {
     position: relative;
 }
 
-nav{
+nav {
     text-align: right;
     padding: 30px 50px 0 0;
 }
 
-nav > a{
-    color:#fff;
+nav>a {
+    color: #fff;
     font-weight: 500;
     text-decoration: none;
     margin-right: 10px;
 }
 
-nav > a:hover{
+nav>a:hover {
     text-decoration: underline;
 }
 
-header .textos-header{
+header .textos-header {
     display: flex;
     height: 430px;
     width: 100%;
@@ -65,18 +65,18 @@ header .textos-header{
     text-align: center;
 }
 
-.textos-header h1{
+.textos-header h1 {
     font-size: 50px;
-    color:#fff;
+    color: #fff;
 }
 
-.textos-header h2{
+.textos-header h2 {
     font-size: 30px;
     font-weight: 300;
-    color:#fff;
+    color: #fff;
 }
 
-.wave{
+.wave {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -84,28 +84,29 @@ header .textos-header{
 
 /* About us */
 
-main .sobre-nosotros{
+main .sobre-nosotros {
     padding: 30px 0 60px 0;
 }
-.contenedor-sobre-nosotros{
+
+.contenedor-sobre-nosotros {
     display: flex;
     justify-content: space-evenly;
 }
 
-.imagen-about-us{
+.imagen-about-us {
     width: 40%;
 }
 
-.sobre-nosotros .contenido-textos{
+.sobre-nosotros .contenido-textos {
     width: 48%;
 }
 
-.contenido-textos h3{
+.contenido-textos h3 {
     margin-bottom: 15px;
 }
 
-.contenido-textos h3 span{
-    background: #392ddd;
+.contenido-textos h3 span {
+    background: #1506ee;
     color: #fff;
     border-radius: 50%;
     display: inline-block;
@@ -117,7 +118,7 @@ main .sobre-nosotros{
     margin-right: 5px;
 }
 
-.contenido-textos p{
+.contenido-textos p {
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
@@ -126,17 +127,17 @@ main .sobre-nosotros{
 /* Galeria */
 
 
-.portafolio{
+.portafolio {
     background: #f2f2f2;
 }
 
-.galeria-port{
+.galeria-port {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.imagen-port{
+.imagen-port {
     width: 34%;
     margin-bottom: 10px;
     overflow: hidden;
@@ -145,14 +146,14 @@ main .sobre-nosotros{
     border-radius: 10px;
 }
 
-.imagen-port > img{
+.imagen-port>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     display: block;
 }
 
-.hover-galeria{
+.hover-galeria {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -165,7 +166,7 @@ main .sobre-nosotros{
 
 
 /*Button Whatsapp */
-.button__small {
+/* .button__small {
     padding: .75rem;
     box-shadow: none;
   }
@@ -189,17 +190,17 @@ main .sobre-nosotros{
   
   .button__gray:hover {
     background-color: #392ddd;
-  }
+  } */
 
 /* Clients */
 
-.cards{
+.cards {
     display: flex;
     justify-content: space-evenly;
 }
 
-.cards .card{
-    background: #392ddd;
+.cards .card {
+    background: #1506ee;
     display: flex;
     width: 46%;
     height: 200px;
@@ -209,7 +210,7 @@ main .sobre-nosotros{
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
 }
 
-.cards .card img{
+.cards .card img {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -218,58 +219,77 @@ main .sobre-nosotros{
     display: block;
 }
 
-.cards .card > .contenido-texto-card{
+.cards .card>.contenido-texto-card {
     width: 60%;
     color: #fff;
 }
 
-.cards .card > .contenido-texto-card p{
+.cards .card>.contenido-texto-card p {
     font-weight: 300;
     padding-top: 5px;
 }
 
 /*  Our team */
 
-.about-services{
+.about-services {
     background: #f2f2f2;
     padding-bottom: 30px;
 }
 
 
-.servicio-cont{
-    display:flex;
+.servicio-cont {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.servicio-ind{
+.servicio-ind {
     width: 28%;
     text-align: center;
 }
 
-.servicio-ind img{
+.servicio-ind img {
     width: 90%;
 }
 
-.servicio-ind h3{
+.servicio-ind h3 {
     margin: 10px 0;
 }
 
-.servicio-ind p{
+.servicio-ind p {
     font-weight: 300;
     text-align: justify;
 }
 
+/* redes sociales */
+.social-media {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.facebooks .whatsapp {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
 /* footer */
 
-footer{
+footer {
     background: #414141;
-    padding: 60px 0 30px 0;
+    padding: 20px 0 30px 0;
     margin: auto;
     overflow: hidden;
 }
 
-.contenedor-footer{
+.contenedor-footer {
     display: flex;
     width: 70%;
     justify-content: space-evenly;
@@ -278,179 +298,199 @@ footer{
     border-bottom: 1px solid #ccc;
 }
 
-.content-foo{
+.content-foo {
     text-align: center;
 }
 
-.content-foo h4{
+.content-foo h4 {
     color: #fff;
-    border-bottom: 3px solid #392ddd;
+    border-bottom: 3px solid #1506ee;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
-.content-foo p{
+.content-foo p {
     color: #ccc;
 }
 
-.titulo-final{
+.titulo-final {
     text-align: center;
     font-size: 20px;
     margin: 20px 0 0 0;
     color: #9e9797;
 }
 
-@media screen and (max-width:900px){
-    header{
+@media screen and (max-width:900px) {
+    .imagen-about-us {
+        height: 26rem;
+    }
+
+    .contenido-textos {
+        margin-top: 2rem;
+    }
+
+    header {
         background-position: center;
     }
 
-    .contenedor-sobre-nosotros{
+    .contenedor-sobre-nosotros {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .sobre-nosotros .contenido-textos{
+    .sobre-nosotros .contenido-textos {
         width: 90%;
     }
 
-    .imagen-about-us{
+    .imagen-about-us {
         width: 90%;
     }
 
     /* Galeria */
 
-    .imagen-port{
+    .imagen-port {
         width: 44%;
     }
 
     /* Clientes */
 
-    .cards{
+    .cards {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .cards .card{
+    .cards .card {
         width: 90%;
     }
 
-    .cards .card:first-child{
+    .cards .card:first-child {
         margin-bottom: 30px;
     }
 
     /* servicios */
 
-    .servicio-cont{
+    .servicio-cont {
         justify-content: center;
         flex-direction: column;
     }
 
-    .servicio-ind{
-        width: 100%;
+    .servicio-ind {
+        width: 50%;
         text-align: center;
     }
 
-    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2) {
         margin-bottom: 60px;
     }
 
-    .servicio-ind img{
+    .servicio-ind img {
         width: 90%;
     }
+
 }
 
-@media screen and (max-width:500px){
-    nav{
+@media screen and (max-width:500px) {
+    .imagen-about-us {
+        height: 17rem;
+        width: 10px;
+    }
+    nav {
         text-align: center;
         padding: 30px 0 0 0;
     }
 
-    nav > a{
+    nav>a {
         margin-right: 5px;
     }
 
-    .textos-header h1{
+    .textos-header h1 {
         font-size: 35px;
     }
 
-    .textos-header h2{
+    .textos-header h2 {
         font-size: 20px;
     }
 
     /* ABOUT US */
 
-    .imagen-about-us{
+    .imagen-about-us {
         margin-bottom: 60px;
-        width: 75%;
+        width: 85%;
     }
 
-    .sobre-nosotros .contenido-textos{
+    .sobre-nosotros .contenido-textos {
         width: 95%;
     }
 
     /* Galeria */
 
-    .imagen-port{
+    .imagen-port {
         width: 78%;
     }
 
     /* Clients */
 
-    .cards .card{
-        height: 450px;
+    .cards .card {
+        height: 420px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .cards .card img{
+    .cards .card img {
         width: 90px;
         height: 90px;
     }
 
+    /* redes sociales */
+
+
+
     /* Footer */
 
-    .contenedor-footer{
+    .contenedor-footer {
         flex-direction: column;
         border: none;
     }
 
-    .content-foo{
+    .content-foo {
         margin-bottom: 20px;
         text-align: center;
     }
 
-    .content-foo h4{
+    .content-foo h4 {
         border: none;
     }
 
-    .content-foo p{
+    .content-foo p {
         color: #ccc;
         border-bottom: 1px solid #f2f2f2;
         padding-bottom: 20px;
     }
 
-    .titulo-final{
+    .titulo-final {
         font-size: 15px;
     }
 
-    .servicio-ind img{
-        width: 70%;
+    .servicio-ind {
+        width: 50%;
     }
 
     /* *clients* */
-    .cards .card{
+    .cards .card {
         height: 410px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center ;
+        justify-content: center;
     }
 
     
+    .facebook .whatsapp {
+height: 3rem;
+    }
 
-    
+
 }
