@@ -139,7 +139,7 @@ main .sobre-nosotros {
 
 .imagen-port {
     width: 34%;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
     overflow: hidden;
     position: relative;
     cursor: pointer;
@@ -153,6 +153,15 @@ main .sobre-nosotros {
     display: block;
 }
 
+.imagen-port:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.imagen-port:after {
+    transition-delay: 2s;
+}
+
 .hover-galeria {
     position: absolute;
     width: 100%;
@@ -163,36 +172,6 @@ main .sobre-nosotros {
     align-items: center;
     flex-direction: column;
 }
-
-
-/*Button Whatsapp */
-/* .button__small {
-    padding: .75rem;
-    box-shadow: none;
-  }
-
-  .button__gray {
-    background-color: var(--text-color-lighten);
-    color: var(--title-color);
-  }
-
-  .button {
-    display: inline-flex;
-    align-items: center;
-    column-gap: .5rem;
-    background-color: var(--first-color);
-    color: #fff;
-    padding: 1.15rem 1.5rem;
-    border-radius: .5rem;
-    transition: .3s;
-    box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
-  }
-  
-  .button__gray:hover {
-    background-color: #392ddd;
-  } */
-
-/* Clients */
 
 .cards {
     display: flex;
@@ -278,6 +257,17 @@ main .sobre-nosotros {
 .facebooks .whatsapp {
     margin-top: 10px;
     cursor: pointer;
+
+}
+
+.bxl-whatsapp {
+    font-size: 70px;
+    color: rgb(51, 243, 60);
+}
+
+.bxl-facebook {
+    font-size: 70px;
+    color: rgba(27, 27, 248, 0.945);
 }
 
 /* footer */
@@ -393,9 +383,10 @@ footer {
 
 @media screen and (max-width:500px) {
     .imagen-about-us {
-        height: 17rem;
+        height: 18rem;
         width: 10px;
     }
+
     nav {
         text-align: center;
         padding: 30px 0 0 0;
@@ -477,7 +468,6 @@ footer {
     .servicio-ind {
         width: 50%;
     }
-
     /* *clients* */
     .cards .card {
         height: 410px;
@@ -486,11 +476,7 @@ footer {
         align-items: center;
         justify-content: center;
     }
-
     
-    .facebook .whatsapp {
-height: 3rem;
-    }
 
 
 }
