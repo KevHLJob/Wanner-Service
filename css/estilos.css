@@ -241,33 +241,8 @@ main .sobre-nosotros {
 }
 
 /* redes sociales */
-.social-media {
-    margin-top: 30px;
-    margin-bottom: 30px;
-
-}
-
-.redes-sociales {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-}
-
-.facebooks .whatsapp {
-    margin-top: 10px;
-    cursor: pointer;
-
-}
-
-.bxl-whatsapp {
-    font-size: 70px;
-    color: rgb(51, 243, 60);
-}
-
-.bxl-facebook {
-    font-size: 70px;
-    color: rgba(27, 27, 248, 0.945);
+.color {
+    color: #fff;
 }
 
 /* footer */
@@ -468,6 +443,7 @@ footer {
     .servicio-ind {
         width: 50%;
     }
+
     /* *clients* */
     .cards .card {
         height: 410px;
@@ -476,7 +452,7 @@ footer {
         align-items: center;
         justify-content: center;
     }
-    
+
 
 
 }
